@@ -1,21 +1,130 @@
-<!DOCTYPE html>
-<html>
-<head>
+<html><head>
 	<title></title>
-	<script src="js/custom.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="js/custom.js" type="text/javascript" charset="utf-8" async="" defer=""></script>
 	<link rel="stylesheet" type="text/css" href="css/ctm.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 <div id="wrapper">
-	<div class="sub-header">
+	<div class="discount-offer">
 		<p>USE PROMOCODE ONTHELIST FOR 10% ON FIRST PURCHASE</p>
 	</div>
-	<div class="store-detials">
-
+	<div class="user-section">
+		<div class="user-login-section">
+			<a href="" title="" class="select-country">DE,(EUR)</a>
+			<a href="" title="login" class="login user-url"></a>
+			<a href="" title="wishlist" class="wishlist user-url"></a>
+			<a href="" title=cart"" class="cart user-url"></a>
+		</div>
 	</div>
-	<div class="header-section">
-		
+	<div class="heder-section">
+		<header id="header" class="">
+			<div class="header-left">
+				<a href="" >
+					<img src="img/logo.svg" alt="" class="logo">
+				</a>
+			</div>
+			<div class="header-right"><ul class="header-links">
+				<li><a href="#">NEW IN</a></li>
+				<li><a href="#">Designers</a></li>
+				<li><a href="#">Clothing</a></li>
+				<li><a href="#">BAGS</a></li>
+				<li><a href="#">SHOES</a></li>
+				<li><a href="#">ACCESSORIES</a></li>
+				<li><a href="#">VINTAGE</a></li>
+				<li><a href="#">JEWELLERY</a></li>
+				<li><a href="#">WATCHES</a></li>
+				<li><a href="#">HOME</a></li>
+				<li class="offer">SALE</li>
+				</ul>
+			</div>
+			<div class="search">
+				<input type="text" name="googlesearch" id="search" placeholder="Search">
+			</div>
+			
+		</header>
+		<!-- /header -->
+	</div>
+	<div class="container">
+
+		<div class="sub-container">
+		<div class="border"></div>
+			<div class="grid-1">
+				<div class="product-section">
+					<img src="img/product.jpg" alt="sandale" class="p-img">
+				</div>	
+			</div>
+			<div class="grid-2">
+				<div class="prodcut-detail-section">
+					<div class="p-1-detail">
+					<span class="new-in"></span>
+					<h3 class="product-nme f-16px  sequal-bold">SAINT LAURENT</h3>
+					<p class="detail f-12px pad-10px">Opyum 110 Ankel-Boots</p>
+					<h4 class="price f-16px pad-10px">$ 1,220.00 <span class="f-13px col-97 duty">(Include Import Duty)</span></h4>
+					</div>
+					<div class="p-2-detial pad-10px">
+						
+   
+  
+      <div class="drop-menu">
+        <div class="select">
+          <span>Select Size</span>
+          <i class="fa fa-chevron-down"></i>
+        </div>
+        <input type="hidden" name="gender" class="size-se">
+        <ul class="dropeddown">
+          <li id="7">7</li>
+          <li id="8">8</li>
+        </ul>
+      
+  
+</div> <span class="size-guide f-13px"><u>Size Guide</u></span>
+						</div>
+					<div class="p-3-detail cart-section pad-10px">
+						<button type="" class="add-to-bag sequal-bold">ADD TO BAG</button>
+						<button type="" class="add-to-wish sequal-bold"> WISHLIST</button>
+					</div>
+					<div class="p-3-detail desciption pad-15px">
+					<label class="ld f-12px sequal-bold"><b>DESCRIPTION</b></label>
+					<p class="f-12px p-disc">	With a legacy built on luxurious hedonism, Parisian fashion house Saint Laurent exudes the seditious spirit of the times through classic tailored silhouettes which exude the grit and glamour of punk rock. In that vein, there could be no finer piece than the Opyum 110 ankle boots, crafted in mirror black patent leather and featuring a pointed toe, a high ankle, pull-on elasticated side panels and a silver-tone structural interlocking YSL signature metal heel.</p>
+					<p class="f-13px col-97 pad-7px">Product-ID: 555555555</p>
+
+					<ul class="features f-12px">
+						<li>Size &amp; Fit</li>
+						<li>DESIGNER: SAINT LAURENT</li>
+						<li>Shipping &amp; Returns</li>
+						<li>BOUTIQUE</li>
+						<li>SHARE</li>
+					</ul>	
+					</div>
+				</div>
+			</div>				
+		</div>
 	</div>
 </div>
-</body>
-</html>
+
+<script>
+	/*Select Box js*/
+$('.drop-menu').click(function () {
+        $(this).attr('tabindex', 1).focus();
+        $(this).toggleClass('active');
+        $(this).find('.dropeddown').slideToggle(300);
+    });
+    $('.drop-menu').focusout(function () {
+        $(this).removeClass('active');
+        $(this).find('.dropeddown').slideUp(300);
+    });
+    $('.drop-menu .dropeddown li').click(function () {
+        $(this).parents('.drop-menu').find('span').text($(this).text());
+        $(this).parents('.drop-menu').find('input').attr('value', $(this).attr('id'));
+    });
+/*End Select Box js*/
+
+
+$('.dropeddown li').click(function () {
+  var input = '<strong>' + $(this).parents('.drop-menu').find('input').val() + '</strong>',
+      msg = '<span class="msg">Selected Size is ';
+  $('.msg').html(msg + input + '</span>');
+}); 
+</script>
+</body></html>

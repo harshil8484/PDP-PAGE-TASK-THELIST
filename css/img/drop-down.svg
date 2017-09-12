@@ -1,0 +1,32 @@
+<svg width="10" height="6" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>tl_icon_arrow_down</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-6093 -3687)">
+<rect x="6093" y="3687" width="10" height="6" fill="#E5E5E5"/>
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 4979 3352L 6419 3352L 6419 4216L 4979 4216L 4979 3352Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="TL_PAGE_PRODUCT_DT" clip-path="url(#clip-0)">
+<path d="M 4979 3352L 6419 3352L 6419 4216L 4979 4216L 4979 3352Z" fill="#FFFFFF"/>
+<g id="Rectangle Copy">
+<use xlink:href="#path0_fill" transform="translate(5880 3670)" fill="#FFFFFF"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(5880 3670)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(5880 3670)" fill="#E4E4E4"/>
+</g>
+</g>
+<g id="tl_icon_arrow_down">
+<g id="Page 1">
+<use xlink:href="#path2_fill" transform="translate(6093 3687)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 233 0L 233 38L 0 38L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 233 0L 234 0L 234 -1L 233 -1L 233 0ZM 233 38L 233 39L 234 39L 234 38L 233 38ZM 0 38L -1 38L -1 39L 0 39L 0 38ZM 0 1L 233 1L 233 -1L 0 -1L 0 1ZM 232 0L 232 38L 234 38L 234 0L 232 0ZM 233 37L 0 37L 0 39L 233 39L 233 37ZM 1 38L 1 0L -1 0L -1 38L 1 38Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 9.37318 0L 4.98962 4.38439L 0.625986 0.0199253L 0 0.646742L 2.50145 3.14819L 4.36281 5.01038L 4.98962 5.63636L 9.99917 0.625986L 9.99917 0.624326L 9.37318 0Z"/>
+</defs>
+</svg>

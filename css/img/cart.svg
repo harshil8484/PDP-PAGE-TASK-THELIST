@@ -1,0 +1,31 @@
+<svg width="18" height="19" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>tl_icon_cart_line</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-6355 -3398)">
+<rect x="6355" y="3398" width="18" height="19" fill="#E5E5E5"/>
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 4979 3352L 6419 3352L 6419 4216L 4979 4216L 4979 3352Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="TL_PAGE_PRODUCT_DT" clip-path="url(#clip-0)">
+<path d="M 4979 3352L 6419 3352L 6419 4216L 4979 4216L 4979 3352Z" fill="#FFFFFF"/>
+<g id="Group">
+<g id="Group">
+<g id="tl_icon_cart_line">
+<g id="Fill 1">
+<use xlink:href="#path0_fill" transform="translate(6355 3398.7)"/>
+</g>
+</g>
+<g id="Group">
+<g id="Fill 2">
+<use xlink:href="#path1_fill" transform="translate(6358.38 3403.42)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 17.8926L 18 17.8926L 18 0L 0 0L 0 17.8926ZM 0.75 17.1467L 17.25 17.1467L 17.25 0.745117L 0.75 0.745117L 0.75 17.1467Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0.74925 3.35486C 0.74925 6.03167 2.93212 8.20077 5.62462 8.20077C 8.31712 8.20077 10.4992 6.03167 10.4992 3.35486L 10.4992 0.745525L 11.25 0.745525L 11.25 0L 9 0L 9 0.745525L 9.74925 0.745525L 9.74925 3.35486C 9.74925 5.61566 7.89862 7.45525 5.62462 7.45525C 3.34987 7.45525 1.49925 5.61566 1.49925 3.35486L 1.49925 0.745525L 2.25 0.745525L 2.25 0L 0 0L 0 0.745525L 0.74925 0.745525L 0.74925 3.35486Z"/>
+</defs>
+</svg>
