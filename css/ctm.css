@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	margin: 0;
+	position: relative;
+	display: block;
+	width: 100%;
+}
+p{
+	margin: 0;
+}
+.sub-header{
+	padding: 5px 0;
+	display: block;
+	position: relative;
+	background: #EEEEEE;
+	text-align:center;
+	font-size: 10px;
+	text-align: center;
+	letter-spacing: 0.833333px;
+}
